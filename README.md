@@ -1,4 +1,4 @@
-# AWS Ticketing Project
+# AWS Ticketing  Algorithm Project
 
 This is a sample online ticketing system built in Python using Jupyter Notebook. It demonstrates:
 
