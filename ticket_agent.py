@@ -1,0 +1,142 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "697e2142-215c-4770-b02a-0bde769ca4a2",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "UnicodeDecodeError",
+     "evalue": "'utf-8' codec can't decode byte 0x92 in position 4243: invalid start byte",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mUnicodeDecodeError\u001b[39m                        Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 4\u001b[39m\n\u001b[32m      1\u001b[39m \u001b[38;5;28;01mimport\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mpandas\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;28;01mas\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34;01mpd\u001b[39;00m\n\u001b[32m      3\u001b[39m \u001b[38;5;66;03m# Load tickets CSV\u001b[39;00m\n\u001b[32m----> \u001b[39m\u001b[32m4\u001b[39m df = \u001b[43mpd\u001b[49m\u001b[43m.\u001b[49m\u001b[43mread_csv\u001b[49m\u001b[43m(\u001b[49m\u001b[33;43m\"\u001b[39;49m\u001b[33;43mticketing.csv\u001b[39;49m\u001b[33;43m\"\u001b[39;49m\u001b[43m)\u001b[49m\n\u001b[32m      6\u001b[39m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[34mprocess_ticket\u001b[39m(ticket_message):\n\u001b[32m      7\u001b[39m \u001b[38;5;250m    \u001b[39m\u001b[33;03m\"\"\"\u001b[39;00m\n\u001b[32m      8\u001b[39m \u001b[33;03m    Mock AI agent: returns category, priority, suggested response.\u001b[39;00m\n\u001b[32m      9\u001b[39m \u001b[33;03m    Replace with actual Bedrock call later.\u001b[39;00m\n\u001b[32m     10\u001b[39m \u001b[33;03m    \"\"\"\u001b[39;00m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mM:\\MyProjects\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py:1026\u001b[39m, in \u001b[36mread_csv\u001b[39m\u001b[34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)\u001b[39m\n\u001b[32m   1013\u001b[39m kwds_defaults = _refine_defaults_read(\n\u001b[32m   1014\u001b[39m     dialect,\n\u001b[32m   1015\u001b[39m     delimiter,\n\u001b[32m   (...)\u001b[39m\u001b[32m   1022\u001b[39m     dtype_backend=dtype_backend,\n\u001b[32m   1023\u001b[39m )\n\u001b[32m   1024\u001b[39m kwds.update(kwds_defaults)\n\u001b[32m-> \u001b[39m\u001b[32m1026\u001b[39m \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[43m_read\u001b[49m\u001b[43m(\u001b[49m\u001b[43mfilepath_or_buffer\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mkwds\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mM:\\MyProjects\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py:620\u001b[39m, in \u001b[36m_read\u001b[39m\u001b[34m(filepath_or_buffer, kwds)\u001b[39m\n\u001b[32m    617\u001b[39m _validate_names(kwds.get(\u001b[33m\"\u001b[39m\u001b[33mnames\u001b[39m\u001b[33m\"\u001b[39m, \u001b[38;5;28;01mNone\u001b[39;00m))\n\u001b[32m    619\u001b[39m \u001b[38;5;66;03m# Create the parser.\u001b[39;00m\n\u001b[32m--> \u001b[39m\u001b[32m620\u001b[39m parser = \u001b[43mTextFileReader\u001b[49m\u001b[43m(\u001b[49m\u001b[43mfilepath_or_buffer\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43m*\u001b[49m\u001b[43m*\u001b[49m\u001b[43mkwds\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m    622\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m chunksize \u001b[38;5;129;01mor\u001b[39;00m iterator:\n\u001b[32m    623\u001b[39m     \u001b[38;5;28;01mreturn\u001b[39;00m parser\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mM:\\MyProjects\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py:1620\u001b[39m, in \u001b[36mTextFileReader.__init__\u001b[39m\u001b[34m(self, f, engine, **kwds)\u001b[39m\n\u001b[32m   1617\u001b[39m     \u001b[38;5;28mself\u001b[39m.options[\u001b[33m\"\u001b[39m\u001b[33mhas_index_names\u001b[39m\u001b[33m\"\u001b[39m] = kwds[\u001b[33m\"\u001b[39m\u001b[33mhas_index_names\u001b[39m\u001b[33m\"\u001b[39m]\n\u001b[32m   1619\u001b[39m \u001b[38;5;28mself\u001b[39m.handles: IOHandles | \u001b[38;5;28;01mNone\u001b[39;00m = \u001b[38;5;28;01mNone\u001b[39;00m\n\u001b[32m-> \u001b[39m\u001b[32m1620\u001b[39m \u001b[38;5;28mself\u001b[39m._engine = \u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43m_make_engine\u001b[49m\u001b[43m(\u001b[49m\u001b[43mf\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43mengine\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mM:\\MyProjects\\Lib\\site-packages\\pandas\\io\\parsers\\readers.py:1898\u001b[39m, in \u001b[36mTextFileReader._make_engine\u001b[39m\u001b[34m(self, f, engine)\u001b[39m\n\u001b[32m   1895\u001b[39m     \u001b[38;5;28;01mraise\u001b[39;00m \u001b[38;5;167;01mValueError\u001b[39;00m(msg)\n\u001b[32m   1897\u001b[39m \u001b[38;5;28;01mtry\u001b[39;00m:\n\u001b[32m-> \u001b[39m\u001b[32m1898\u001b[39m     \u001b[38;5;28;01mreturn\u001b[39;00m \u001b[43mmapping\u001b[49m\u001b[43m[\u001b[49m\u001b[43mengine\u001b[49m\u001b[43m]\u001b[49m\u001b[43m(\u001b[49m\u001b[43mf\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43m*\u001b[49m\u001b[43m*\u001b[49m\u001b[38;5;28;43mself\u001b[39;49m\u001b[43m.\u001b[49m\u001b[43moptions\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m   1899\u001b[39m \u001b[38;5;28;01mexcept\u001b[39;00m \u001b[38;5;167;01mException\u001b[39;00m:\n\u001b[32m   1900\u001b[39m     \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28mself\u001b[39m.handles \u001b[38;5;129;01mis\u001b[39;00m \u001b[38;5;129;01mnot\u001b[39;00m \u001b[38;5;28;01mNone\u001b[39;00m:\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mM:\\MyProjects\\Lib\\site-packages\\pandas\\io\\parsers\\c_parser_wrapper.py:93\u001b[39m, in \u001b[36mCParserWrapper.__init__\u001b[39m\u001b[34m(self, src, **kwds)\u001b[39m\n\u001b[32m     90\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m kwds[\u001b[33m\"\u001b[39m\u001b[33mdtype_backend\u001b[39m\u001b[33m\"\u001b[39m] == \u001b[33m\"\u001b[39m\u001b[33mpyarrow\u001b[39m\u001b[33m\"\u001b[39m:\n\u001b[32m     91\u001b[39m     \u001b[38;5;66;03m# Fail here loudly instead of in cython after reading\u001b[39;00m\n\u001b[32m     92\u001b[39m     import_optional_dependency(\u001b[33m\"\u001b[39m\u001b[33mpyarrow\u001b[39m\u001b[33m\"\u001b[39m)\n\u001b[32m---> \u001b[39m\u001b[32m93\u001b[39m \u001b[38;5;28mself\u001b[39m._reader = \u001b[43mparsers\u001b[49m\u001b[43m.\u001b[49m\u001b[43mTextReader\u001b[49m\u001b[43m(\u001b[49m\u001b[43msrc\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43m*\u001b[49m\u001b[43m*\u001b[49m\u001b[43mkwds\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m     95\u001b[39m \u001b[38;5;28mself\u001b[39m.unnamed_cols = \u001b[38;5;28mself\u001b[39m._reader.unnamed_cols\n\u001b[32m     97\u001b[39m \u001b[38;5;66;03m# error: Cannot determine type of 'names'\u001b[39;00m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mpandas/_libs/parsers.pyx:574\u001b[39m, in \u001b[36mpandas._libs.parsers.TextReader.__cinit__\u001b[39m\u001b[34m()\u001b[39m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mpandas/_libs/parsers.pyx:663\u001b[39m, in \u001b[36mpandas._libs.parsers.TextReader._get_header\u001b[39m\u001b[34m()\u001b[39m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mpandas/_libs/parsers.pyx:874\u001b[39m, in \u001b[36mpandas._libs.parsers.TextReader._tokenize_rows\u001b[39m\u001b[34m()\u001b[39m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mpandas/_libs/parsers.pyx:891\u001b[39m, in \u001b[36mpandas._libs.parsers.TextReader._check_tokenize_status\u001b[39m\u001b[34m()\u001b[39m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32mpandas/_libs/parsers.pyx:2053\u001b[39m, in \u001b[36mpandas._libs.parsers.raise_parser_error\u001b[39m\u001b[34m()\u001b[39m\n",
+      "\u001b[36mFile \u001b[39m\u001b[32m<frozen codecs>:325\u001b[39m, in \u001b[36mdecode\u001b[39m\u001b[34m(self, input, final)\u001b[39m\n",
+      "\u001b[31mUnicodeDecodeError\u001b[39m: 'utf-8' codec can't decode byte 0x92 in position 4243: invalid start byte"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import random\n",
+    "\n",
+    "# Load tickets CSV\n",
+    "df = pd.read_csv(\"tickets.csv\")\n",
+    "\n",
+    "# Predefined responses for realism\n",
+    "responses = {\n",
+    "    \"Technical\": [\n",
+    "        \"Please reset your password using the reset link.\",\n",
+    "        \"Try logging out and back in, this often resolves the issue.\",\n",
+    "        \"Ensure your app is updated to the latest version.\",\n",
+    "        \"Follow the steps in our help center to fix this issue.\"\n",
+    "    ],\n",
+    "    \"Billing\": [\n",
+    "        \"Please verify your payment details or contact support.\",\n",
+    "        \"Your subscription charge has been adjusted, check your account.\",\n",
+    "        \"Refund requests can be submitted via your order page.\",\n",
+    "        \"Ensure your billing info is up-to-date to avoid issues.\"\n",
+    "    ],\n",
+    "    \"Support\": [\n",
+    "        \"We are looking into your issue. Support will contact you soon.\",\n",
+    "        \"Please provide more details so we can help you faster.\",\n",
+    "        \"Your request has been received, and we're on it.\",\n",
+    "        \"Check our FAQ section; your answer might be there.\"\n",
+    "    ],\n",
+    "    \"Feedback\": [\n",
+    "        \"Thank you for your feedback!\",\n",
+    "        \"We appreciate your input and will consider it.\",\n",
+    "        \"Thanks! Your suggestions help us improve.\",\n",
+    "        \"We love hearing from our users!\"\n",
+    "    ]\n",
+    "}\n",
+    "\n",
+    "def process_ticket(ticket_message):\n",
+    "    \"\"\"\n",
+    "    Advanced mock AI agent for ticket processing.\n",
+    "    Returns category, priority, and a suggested response.\n",
+    "    \"\"\"\n",
+    "    text = ticket_message.lower()\n",
+    "    \n",
+    "    # Determine category\n",
+    "    if any(word in text for word in [\"password\", \"log in\", \"login\", \"app crash\", \"cannot access\"]):\n",
+    "        category = \"Technical\"\n",
+    "        priority = \"High\"\n",
+    "    elif any(word in text for word in [\"payment\", \"charge\", \"refund\", \"billing\", \"subscription\"]):\n",
+    "        category = \"Billing\"\n",
+    "        priority = \"High\"\n",
+    "    elif any(word in text for word in [\"cancel\", \"change plan\", \"address update\"]):\n",
+    "        category = \"Billing\"\n",
+    "        priority = \"Medium\"\n",
+    "    elif any(word in text for word in [\"love\", \"great\", \"awesome\", \"thank you\"]):\n",
+    "        category = \"Feedback\"\n",
+    "        priority = \"Low\"\n",
+    "    else:\n",
+    "        category = \"Support\"\n",
+    "        priority = \"Medium\"\n",
+    "    \n",
+    "    # Pick a random suggested response from category\n",
+    "    suggested_response = random.choice(responses[category])\n",
+    "    \n",
+    "    return {\n",
+    "        \"category\": category,\n",
+    "        \"priority\": priority,\n",
+    "        \"suggested_response\": suggested_response\n",
+    "    }\n",
+    "\n",
+    "example_ticket = \"I can't log into my account and my app keeps crashing.\"\n",
+    "print(process_ticket(example_ticket))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ecd0d46c-b0b3-4ee0-bb51-8a15e5ada94f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0fd54edf-df0c-45f9-a094-0cc0f5712a76",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

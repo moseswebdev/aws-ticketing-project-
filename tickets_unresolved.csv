@@ -1,0 +1,651 @@
+customer_message,category,priority,suggested_response,agent_response,resolved
+I love your service!,Feedback,Low,Thank you for your feedback!,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I love your service!""
+
+    Our team has categorized this ticket as: Feedback
+    Priority level: Low
+
+    Suggested solution:
+    Thank you for your feedback!
+
+    Best regards,
+    Support Team",False
+Thanks for the support!,Support,Medium,We are looking into your issue. Support will contact you soon.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Thanks for the support!""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    We are looking into your issue. Support will contact you soon.
+
+    Best regards,
+    Support Team",False
+I love your service!,Feedback,Low,Thanks! Your suggestions help us improve.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I love your service!""
+
+    Our team has categorized this ticket as: Feedback
+    Priority level: Low
+
+    Suggested solution:
+    Thanks! Your suggestions help us improve.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Please reset your password using the reset link.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Please reset your password using the reset link.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,"Your subscription charge has been adjusted, check your account.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Your subscription charge has been adjusted, check your account.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Please verify your payment details or contact support.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Please verify your payment details or contact support.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,"Try logging out and back in, this often resolves the issue.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Try logging out and back in, this often resolves the issue.
+
+    Best regards,
+    Support Team",False
+Thanks for the support!,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Thanks for the support!""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Refund requests can be submitted via your order page.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Refund requests can be submitted via your order page.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Ensure your billing info is up-to-date to avoid issues.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Ensure your billing info is up-to-date to avoid issues.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+App keeps crashing.,Support,Medium,Please provide more details so we can help you faster.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""App keeps crashing.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Please provide more details so we can help you faster.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Follow the steps in our help center to fix this issue.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Follow the steps in our help center to fix this issue.
+
+    Best regards,
+    Support Team",False
+App keeps crashing.,Support,Medium,Check our FAQ section; your answer might be there.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""App keeps crashing.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Check our FAQ section; your answer might be there.
+
+    Best regards,
+    Support Team",False
+Please refund my last payment.,Billing,High,Please verify your payment details or contact support.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Please refund my last payment.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Please verify your payment details or contact support.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
+Please refund my last payment.,Billing,High,Ensure your billing info is up-to-date to avoid issues.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Please refund my last payment.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Ensure your billing info is up-to-date to avoid issues.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,We are looking into your issue. Support will contact you soon.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    We are looking into your issue. Support will contact you soon.
+
+    Best regards,
+    Support Team",False
+Please refund my last payment.,Billing,High,"Your subscription charge has been adjusted, check your account.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Please refund my last payment.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Your subscription charge has been adjusted, check your account.
+
+    Best regards,
+    Support Team",False
+"My payment failed, need help.",Billing,High,Refund requests can be submitted via your order page.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""My payment failed, need help.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Refund requests can be submitted via your order page.
+
+    Best regards,
+    Support Team",False
+How do I change my subscription?,Billing,High,Please verify your payment details or contact support.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""How do I change my subscription?""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Please verify your payment details or contact support.
+
+    Best regards,
+    Support Team",False
+How do I change my subscription?,Billing,High,Ensure your billing info is up-to-date to avoid issues.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""How do I change my subscription?""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Ensure your billing info is up-to-date to avoid issues.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Please reset your password using the reset link.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Please reset your password using the reset link.
+
+    Best regards,
+    Support Team",False
+App keeps crashing.,Support,Medium,We are looking into your issue. Support will contact you soon.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""App keeps crashing.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    We are looking into your issue. Support will contact you soon.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Please verify your payment details or contact support.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Please verify your payment details or contact support.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,"Try logging out and back in, this often resolves the issue.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Try logging out and back in, this often resolves the issue.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Refund requests can be submitted via your order page.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Refund requests can be submitted via your order page.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Refund requests can be submitted via your order page.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Refund requests can be submitted via your order page.
+
+    Best regards,
+    Support Team",False
+"My payment failed, need help.",Billing,High,"Your subscription charge has been adjusted, check your account.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""My payment failed, need help.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Your subscription charge has been adjusted, check your account.
+
+    Best regards,
+    Support Team",False
+How do I change my subscription?,Billing,High,"Your subscription charge has been adjusted, check your account.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""How do I change my subscription?""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Your subscription charge has been adjusted, check your account.
+
+    Best regards,
+    Support Team",False
+How do I change my subscription?,Billing,High,Please verify your payment details or contact support.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""How do I change my subscription?""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Please verify your payment details or contact support.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,Follow the steps in our help center to fix this issue.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Follow the steps in our help center to fix this issue.
+
+    Best regards,
+    Support Team",False
+I love your service!,Feedback,Low,We appreciate your input and will consider it.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I love your service!""
+
+    Our team has categorized this ticket as: Feedback
+    Priority level: Low
+
+    Suggested solution:
+    We appreciate your input and will consider it.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Follow the steps in our help center to fix this issue.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Follow the steps in our help center to fix this issue.
+
+    Best regards,
+    Support Team",False
+Thanks for the support!,Support,Medium,Check our FAQ section; your answer might be there.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Thanks for the support!""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Check our FAQ section; your answer might be there.
+
+    Best regards,
+    Support Team",False
+How do I change my subscription?,Billing,High,Refund requests can be submitted via your order page.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""How do I change my subscription?""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Refund requests can be submitted via your order page.
+
+    Best regards,
+    Support Team",False
+Thanks for the support!,Support,Medium,We are looking into your issue. Support will contact you soon.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Thanks for the support!""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    We are looking into your issue. Support will contact you soon.
+
+    Best regards,
+    Support Team",False
+Cannot access my dashboard.,Technical,High,"Try logging out and back in, this often resolves the issue.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Cannot access my dashboard.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Try logging out and back in, this often resolves the issue.
+
+    Best regards,
+    Support Team",False
+I want to cancel my subscription.,Billing,High,Ensure your billing info is up-to-date to avoid issues.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I want to cancel my subscription.""
+
+    Our team has categorized this ticket as: Billing
+    Priority level: High
+
+    Suggested solution:
+    Ensure your billing info is up-to-date to avoid issues.
+
+    Best regards,
+    Support Team",False
+I can't log into my account.,Technical,High,Ensure your app is updated to the latest version.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""I can't log into my account.""
+
+    Our team has categorized this ticket as: Technical
+    Priority level: High
+
+    Suggested solution:
+    Ensure your app is updated to the latest version.
+
+    Best regards,
+    Support Team",False
+Thanks for the support!,Support,Medium,Check our FAQ section; your answer might be there.,"Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""Thanks for the support!""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Check our FAQ section; your answer might be there.
+
+    Best regards,
+    Support Team",False
+The app is very slow today.,Support,Medium,"Your request has been received, and we're on it.","Hello,
+
+    Thank you for contacting support regarding your issue:
+    ""The app is very slow today.""
+
+    Our team has categorized this ticket as: Support
+    Priority level: Medium
+
+    Suggested solution:
+    Your request has been received, and we're on it.
+
+    Best regards,
+    Support Team",False
